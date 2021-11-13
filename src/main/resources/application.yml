@@ -1,14 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mariadb://dev.clvqx5zywpsr.ap-northeast-2.rds.amazonaws.com/dev
+    url: jdbc:mariadb://localhost:3306/judelaw
     username: guava
-    password: mango00#
-
-  jpa:
-    hibernate:
-      ddl-auto: create
-      naming:
-        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    password: mango123@
 
 logging:
   path: ./logs
